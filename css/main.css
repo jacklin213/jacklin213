@@ -1,0 +1,36 @@
+/* Main CSS */
+body { /* Due to sticky navbar */
+    margin-top: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    /*color: #080808;*/
+    /*margin-top: 0; // remove the gap so it doesn't close */
+ }
+ 
+.jumbotron {
+    background-color: #33CC33;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.bar {
+  width: 5px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5
+}
