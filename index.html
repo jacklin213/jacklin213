@@ -1,200 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <title>Home - Jacklin213</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <!-- <script src="js/bootstrap.min.js"></script> Doesnt work?-->
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="js/dropdown.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/cover.css">
+
+        <title>Home - Jacklin213</title>
     </head>
-    <body>
-         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-              <!-- Brand and toggle get grouped for better mobile display -->
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href=".">Jacklin213</a>
-              </div>
-
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                  <li class="active"><a href=".">Home <span class="sr-only">(current)</span></a></li>
-                  <li role="separator" class="bar"></li>
-                  <li class="dropdown"> <!-- Videos dropdown menu -->
-                    <a href="./video" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-                        Video <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Tutorials</a></li>
-                      <li><a href="#">Gaming</a></li>
-                      <li><a href="#">Variety</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="http://youtube.com/jichlin213">PokeMobaGamer</a></li>
-                      <li><a href="http://youtube.com/jacklin213jr">Jacklin213jr</a></li>
-                      <li><a href="http://youtube.com/manginoanime">MangiNoAnime</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"> <!-- Projects dropdown menu -->
-                    <a href="./project" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
-                        Project <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="#">Projects</a></li>
-                      <li><a href="#">Programs</a></li>
-                      <li><a href="#">Websites</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="https://github.com/jacklin213/">Github</a></li>
-                      <li><a href="http://dev.bukkit.org/profiles/jacklin213">Bukkit Dev</a></li>
-                      <li><a href="https://www.spigotmc.org/members/jacklin213.3519/#resources">Spigot</a></li>
-                    </ul>
-                  </li>
-                  <li class="dropdown"> <!-- Social dropdown menu -->
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                        Social <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a href="https://www.facebook.com/jacklin213">Facebook</a></li>
-                      <li><a href="https://twitter.com/jacklin213">Twitter</a></li>
-                      <li><a href="http://jacklin213.tumblr.com/">Tumblr</a></li>
-                    </ul>
-                  </li>
-                </ul>
-                <!--Navbar right-->
-                <form class="navbar-form navbar-right" role="search">
-                  <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
-                  </div>
-                  <button type="submit" class="btn btn-default">
-                      <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-                  </button>
-                </form>
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LLHCL6LF43ZYQ">Donate</a></li>
-                  </form>
-                </ul>
-              </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-        
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Welcome to the official Jacklin213 website</h1>
-                <p>This is a website which contains programs, videos and projects worked on by Jacklin213</p>
-            </div>
-        </div>
-        <div class="container">
-            <div class="events">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <h2>Event 1</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                            <p>
-                                <a class="btn btn-default" href="#" role="button">View details ></a>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <h2>Event 2</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                            <p>
-                                <a class="btn btn-default" href="#" role="button">View details ></a>
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <h2>Event 3</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                            <p>
-                                <a class="btn btn-default" href="#" role="button">View details ></a>
-                            </p>
-                        </div>
-                    </div>
+    <body class="text-center">
+        <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+            <header class="masthead mb-auto">
+                <div class="inner">
+                    <h3 class="masthead-brand">Jacklin213</h3>
+                    <nav class="nav nav-masthead justify-content-center">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="#">Coming Soon</a>
+                    </nav>
                 </div>
-            </div>
-            <div class="advert">
-                <h2>Advertisements</h2>
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Jacklin213 -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-5558366335634162"
-                     data-ad-slot="6851342227"
-                     data-ad-format="auto"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <hr>
-            <footer>
-                <p>© Jacklin213 2015</p>
+            </header>
+            <main role="main" class="inner cover">
+                <img class="cover-profile img-thumbnail m-4" src="https://gravatar.com/avatar/676d4f6a2660dea773dfb6bf1ae2872b?s=200" alt="Profile Picture">
+                <h1 class="cover-heading">Jacklin213</h1>
+                <p class="lead">Engineer at AWS, Software Developer, Gamer</p>
+                <p class="lead">
+                    <!-- <a href="#" class="btn btn-lg btn-secondary">Coming Soon</a> -->
+                    <a href="https://facebook.com/jacklin213" target="_blank"><i class="fab fa-2x fa-facebook-square"></i></a>
+                    <a href="https://github.com/jacklin213" target="_blank"><i class="fab fa-2x fa-github-square"></i></a>
+                    <a href="https://youtube.com/jichlin213" target="_blank"><i class="fab fa-2x fa-youtube-square"></i></a>
+                    <a href="https://twitter.com/jacklin213" target="_blank"><i class="fab fa-2x fa-twitter-square"></i></a>
+                </p>
+            </main>
+            <footer class="mastfoot mt-auto">
+                <div class="inner">
+                    <p>©jacklin213 2015-2020 hosted on <a href="https://github.com/jacklin213/jacklin213.github.io">GitHub</a></p>
+                </div>
             </footer>
-        </div>
-        
-        <!--
-        <div class="tab-content">
-             <div id="home" class="tab-pane fade in active">
-                <div class="jumbotron">
-                    <div class="container">
-                        <h1>Welcome to the official Jacklin213 website</h1>
-                        <p>This is a website which contains programs, videos and projects worked on by Jacklin213</p>
-                    </div>
-                </div>
-                
-                <div class="container">
-                     <div class="events">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <h2>Event 1</h2>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                                    <p>
-                                        <a class="btn btn-default" href="#" role="button">View details ></a>
-                                    </p>
-                                </div>
-                                <div class="col-md-4">
-                                    <h2>Event 2</h2>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                                    <p>
-                                        <a class="btn btn-default" href="#" role="button">View details ></a>
-                                    </p>
-                                </div>
-                                <div class="col-md-4">
-                                    <h2>Event 3</h2>
-                                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                                    <p>
-                                        <a class="btn btn-default" href="#" role="button">View details ></a>
-                                    </p>
-                                </div>
-                            </div>   
-                        </div>
-                    </div>
-                    <hr>
-                    <footer>
-                        <p>© Jacklin213 2015</p>
-                    </footer>
-                </div>
-            </div>
-            
-            <div id="about" class="tab-pane fade">
-                <div class="container">
-                    <h1>About Me</h1>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
-                    <hr>
-                    <footer>
-                        <p>© Jacklin213 2015</p>
-                    </footer>
-                </div>
-            </div>
+        </div>      
 
-        </div>
-        -->
+        <script src="https://kit.fontawesome.com/59e57467fa.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
