@@ -9,6 +9,10 @@
  * Contrasting Color: #B98389 faded pink
 
 /* Links */
+.social-link {
+  color: white;
+}
+
 a,
 a:focus,
 a:hover {
